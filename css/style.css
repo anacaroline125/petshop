@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Nunito", sans-serif;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+header img{
+    width: 4rem;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+h1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 4rem;
+}
+h1 span{
+    color: #FEAC01;
+}
+p{
+    font-family: "Asap", sans-serif;
+}
+#hero{
+    margin: 3rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF3D9;
+    height: 80vh;
+    overflow: hidden;
+}
+#hero img{
+    width: 40rem;
+    height: 100%;
+    object-fit: cover;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+#direita p{
+    padding: .80rem 0rem;
+}
+.logo{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.btn{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    background-color: #007DC5;
+    border-radius: 999px;
+    color: #FFFFFF;
+    padding: .5rem .75rem;
+}
+#hero a{
+    width: 60%;
+    text-align: center;
+}
